@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about"
+    android:layout_marginTop="55dp"
+    android:background="@drawable/subtl">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        >
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smart Blood Bank"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#800517"/>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20dp"
+        android:textColor="#800517"/>
+    <TextView
+        android:id="@+id/textView13"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                    Smart Blood Bank is aims serving for human welfare.We have all the information, you will ever need. Many people are here for you, to help you, willing to donate blood for you anytime. We have done all the job, rest is yours. search the blood group you need. You can help us by registering on Smart Blood Bank if you are willing to donate your blood when needed. As a proud member of Smart Blood Bank and a responsible human being, you can help someone in need. So, donate blood in online.
+Person who need to donate blood may register on our application with the help of username and password.
+  "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dsds"
+        android:text=""
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="                     The persons who need blood donor, they can search and find blood donors by using our application. After searching,
+a list of donors will be displayed and user can get brief details about their contact details, email including their location, so they can communicate "
+
+   android:id="@+id/tvq33"
+        />
+
+</LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

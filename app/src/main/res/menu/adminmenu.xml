@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/BloodStockadmin" android:title="Blood Stock"/>
+
+        <item android:id="@+id/Requestbloodenquiry" android:title="Blood Enquiry"/>
+        <item android:id="@+id/bloodtransaction" android:title="Blood Transaction Out"/>
+        <item android:id="@+id/bloodtransactionin" android:title="Blood Transaction IN"/>
+
+        <item android:id="@+id/registeruser" android:title="Register User"/>
+        <item android:id="@+id/logoutadmin" android:title="Logout"/>
+
+    </group>
+
+
+
+</menu>

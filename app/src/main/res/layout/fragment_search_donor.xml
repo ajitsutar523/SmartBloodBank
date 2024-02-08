@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchDonorF"
+    android:background="@drawable/subtl"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="55dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="  Select Blood Group"
+    android:textSize="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center"
+        android:layout_marginTop="14dp"
+        android:textColor="@color/colorPrimaryDark"
+
+    />
+    <Spinner
+        android:id="@+id/spinner13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTintMode="multiply"
+        android:fontFamily="serif"
+        android:text="Search"
+
+        android:textColor="@color/common_google_signin_btn_text_light_default"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        />
+    <ProgressBar
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        style="?android:attr/progressBarStyle"
+        android:id="@+id/progressbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="200dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:progressDrawable="@drawable/circle"/>
+</RelativeLayout>
